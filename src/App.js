@@ -14,9 +14,9 @@ export default function App() {
       <Router>
             <Appbar/>
             <Routes>
-                <Route path="/" exact element={<Home/>} />
-                <Route path="/resume" exact element={<Resume/>} />
-                <Route path="/links" exact element={<Links/>} />
+                <Route path="/salaman128/" exact element={<Home/>} />
+                <Route path="/salaman128/resume" exact element={<Resume/>} />
+                <Route path="/salaman128/links" exact element={<Links/>} />
                 {/* <Route path="/gallery" exact element={<Gallery/>} />
                 <Route path="/blog/:id" exact element={<Blog />} />
                 <Route path="/terms" exact element={<Terms/>} />
