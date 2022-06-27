@@ -1,0 +1,58 @@
+[0m2021.04.29 16:29:50 INFO  Started: Metals version 0.10.2 in workspace 'D:\Projects\Web\web' for client vscode 1.55.2.[0m
+[0m2021.04.29 16:29:58 INFO  time: initialize in 9s[0m
+[0m2021.04.29 16:30:11 WARN  Build server is not auto-connectable.[0m
+[0m2021.04.29 16:30:11 WARN  no build tool detected in workspace 'D:\Projects\Web\web'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.04.29 17:43:43 INFO  shutting down Metals[0m
+[0m2021.05.24 20:45:03 INFO  Started: Metals version 0.10.3 in workspace 'D:\Projects\Web\web' for client Visual Studio Code 1.56.2.[0m
+[0m2021.05.24 20:45:27 INFO  time: initialize in 23s[0m
+[0m2021.05.24 20:45:28 WARN  Build server is not auto-connectable.[0m
+[0m2021.05.24 20:45:28 WARN  no build tool detected in workspace 'D:\Projects\Web\web'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.05.24 20:49:53 INFO  shutting down Metals[0m
+[0m2021.05.26 14:49:47 INFO  Started: Metals version 0.10.3 in workspace 'D:\Projects\Web\web' for client Visual Studio Code 1.56.2.[0m
+[0m2021.05.26 14:50:09 INFO  time: initialize in 21s[0m
+[0m2021.05.26 14:50:09 WARN  Build server is not auto-connectable.[0m
+[0m2021.05.26 14:50:09 WARN  no build tool detected in workspace 'D:\Projects\Web\web'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.05.29 23:13:57 INFO  Started: Metals version 0.10.3 in workspace 'D:\Projects\Web\web' for client Visual Studio Code 1.56.2.[0m
+[0m2021.05.29 23:14:33 INFO  time: initialize in 36s[0m
+[0m2021.05.29 23:14:34 WARN  Build server is not auto-connectable.[0m
+[0m2021.05.29 23:14:34 WARN  no build tool detected in workspace 'D:\Projects\Web\web'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.05.31 14:35:12 INFO  Started: Metals version 0.10.3 in workspace 'D:\Projects\Web\web' for client Visual Studio Code 1.56.2.[0m
+[0m2021.05.31 14:35:59 INFO  time: initialize in 49s[0m
+[0m2021.05.31 14:36:02 WARN  Build server is not auto-connectable.[0m
+[0m2021.05.31 14:36:02 WARN  no build tool detected in workspace 'D:\Projects\Web\web'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.05.31 15:24:00 INFO  shutting down Metals[0m
+[0m2021.05.31 21:12:58 INFO  Started: Metals version 0.10.3 in workspace 'D:\Projects\Web\web' for client Visual Studio Code 1.56.2.[0m
+[0m2021.05.31 21:13:13 INFO  time: initialize in 14s[0m
+[0m2021.05.31 21:13:14 WARN  Build server is not auto-connectable.[0m
+[0m2021.05.31 21:13:14 WARN  no build tool detected in workspace 'D:\Projects\Web\web'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.05.31 22:36:03 INFO  shutting down Metals[0m
+[0m2021.06.03 22:32:19 INFO  Started: Metals version 0.10.4 in workspace 'D:\Projects\Web\web' for client Visual Studio Code 1.56.2.[0m
+[0m2021.06.03 22:32:26 INFO  time: initialize in 7.51s[0m
+[0m2021.06.03 22:32:26 WARN  Build server is not auto-connectable.[0m
+[0m2021.06.03 22:32:26 WARN  no build tool detected in workspace 'D:\Projects\Web\web'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.06.03 22:43:35 INFO  shutting down Metals[0m
+[0m2021.06.06 22:20:37 INFO  Started: Metals version 0.10.4 in workspace 'D:\Projects\Web\web' for client Visual Studio Code 1.56.2.[0m
+[0m2021.06.06 22:20:52 INFO  time: initialize in 15s[0m
+[0m2021.06.06 22:20:52 WARN  Build server is not auto-connectable.[0m
+[0m2021.06.06 22:20:52 WARN  no build tool detected in workspace 'D:\Projects\Web\web'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.06.14 13:21:25 INFO  Started: Metals version 0.10.4 in workspace 'D:\Projects\Web\web' for client Visual Studio Code 1.56.2.[0m
+[0m2021.06.14 13:21:42 INFO  time: initialize in 17s[0m
+[0m2021.06.14 13:21:43 WARN  Build server is not auto-connectable.[0m
+[0m2021.06.14 13:21:43 WARN  no build tool detected in workspace 'D:\Projects\Web\web'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.06.14 18:24:22 INFO  Started: Metals version 0.10.4 in workspace 'D:\Projects\Web\web' for client Visual Studio Code 1.56.2.[0m
+[0m2021.06.14 18:24:38 INFO  time: initialize in 16s[0m
+[0m2021.06.14 18:24:38 WARN  Build server is not auto-connectable.[0m
+[0m2021.06.14 18:24:38 WARN  no build tool detected in workspace 'D:\Projects\Web\web'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.06.14 19:08:20 INFO  shutting down Metals[0m
+[0m2021.06.19 18:58:37 INFO  Started: Metals version 0.10.4 in workspace 'D:\Projects\Web\web' for client Visual Studio Code 1.57.0.[0m
+[0m2021.06.19 18:58:47 INFO  time: initialize in 10s[0m
+[0m2021.06.19 18:58:47 WARN  Build server is not auto-connectable.[0m
+[0m2021.06.19 18:58:47 WARN  no build tool detected in workspace 'D:\Projects\Web\web'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.06.20 08:16:34 INFO  Started: Metals version 0.10.4 in workspace 'D:\Projects\Web\web' for client Visual Studio Code 1.57.0.[0m
+[0m2021.06.20 08:16:51 INFO  time: initialize in 20s[0m
+[0m2021.06.20 08:16:52 WARN  Build server is not auto-connectable.[0m
+[0m2021.06.20 08:16:52 WARN  no build tool detected in workspace 'D:\Projects\Web\web'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.06.24 20:22:54 INFO  Started: Metals version 0.10.4 in workspace 'D:\Projects\Web\web' for client Visual Studio Code 1.57.1.[0m
+[0m2021.06.24 20:23:05 INFO  time: initialize in 12s[0m
+[0m2021.06.24 20:23:06 WARN  Build server is not auto-connectable.[0m
+[0m2021.06.24 20:23:06 WARN  no build tool detected in workspace 'D:\Projects\Web\web'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m

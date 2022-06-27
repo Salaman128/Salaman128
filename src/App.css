@@ -1,0 +1,151 @@
+body{
+  background-color: black !important;
+  color: #fff !important;
+  align-items: center;
+}
+.nav, .footer{
+  background-color: #222;
+}
+.nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-gap, .nav{
+  height: 10vh;
+}
+.navi{
+  opacity: 0.8;      
+  text-decoration: none;
+  margin: 10px 20px;
+}
+.navi:hover{
+  opacity: 1;
+  color: white;
+  margin: 10px 20px;
+}
+.header-wraper{
+  position: relative;
+  background-image: url(mrrobotwall.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto 100% ;
+  height: -webkit-fill-available;
+  height: 85vh;
+}
+.main-info{
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  color: white;
+  margin: auto 20px;
+}
+.my-name{
+  margin-top: 10px;
+  margin-bottom: auto;
+  margin-right: auto;
+}
+.typed-text{
+  margin-top: auto;
+  margin-bottom: 30px;
+  margin-left: auto;
+}
+input, textarea{
+  background-color: rgba(255,255,255,0.1)  !important;
+  border: 0 !important;
+  outline: 0 !important;
+  box-shadow: none !important;
+  box-sizing: border-box!important;
+  resize: none !important;
+  color: white !important;
+}
+textarea{
+  height: 15vh !important;
+}
+a, .icon{
+  color: #fff !important;
+  opacity: 1;
+  text-decoration: none !important;
+  margin-right: 10px;
+}
+a:hover{
+  color: #fff !important;
+  opacity: 0.8;
+  text-decoration: none !important;
+  margin-right: 10px;
+}                                    
+
+/*--------- Resume -----------*/
+
+.resume{
+  background-color: #000;
+  color: #fff;
+}
+
+hr{
+  width: 70%;
+  margin: 10px auto;
+}
+
+.section{
+  width: 100%;
+  padding:40px 20px;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+}
+.section h1, .part h3{
+  padding: 20px 0px;
+  text-align: center;
+}
+ul.no-bullets {
+  list-style-type: none;
+  margin: 0px; 
+  padding: 0px; 
+}
+li{
+  min-height: 30px;
+  padding: 3px 0px;
+}
+.st{
+  text-align: center;
+}
+.skill{
+  display: inline-block;
+  text-align: left;
+}
+.score{
+  float: right;
+}
+.fa-star{
+  margin:1px 1px;
+  padding:0;
+  color: white;    
+  transition: margin 0.25s;
+  font-size: 13px;
+}
+.dim{
+  opacity: 0.1;
+}
+li:hover .fa-star{
+  margin-left: 2px;
+}
+li:hover{
+  background-color: #222;
+}
+p{
+  color: #999;
+}
+.row{
+  margin:30px auto;
+}
+.col-md-4{
+  margin-bottom:20px;
+}
