@@ -78,40 +78,40 @@ function Contact() {
             <h2>Contact Me</h2>
                 <form className="row m-5" onSubmit={sendEmail}>
                     <div className="col-lg-6 col-md-12">
-                    <div class="mb-3">
+                    <div className="mb-3">
                         <input 
                         type="text" 
-                        class="form-control" 
+                        className="form-control" 
                         name="name" 
                         placeholder="Name"
                         required
                         ref={nameRef}
                         />
                     </div>
-                    <div class="mb-3">
+                    <div className="mb-3">
                         <input 
                         type="email" 
-                        class="form-control" 
+                        className="form-control" 
                         name="email" 
                         placeholder="Email"
                         required
                         ref={emailRef}
                         />
                     </div>
-                    <div class="mb-3">
+                    <div className="mb-3">
                         <input 
                         type="phone" 
-                        class="form-control" 
+                        className="form-control" 
                         name="phone" 
                         placeholder="Phone Number"
                         required
                         ref={phoneRef}
                         />
                     </div>
-                    <div class="mb-3">
+                    <div className="mb-3">
                         <input 
                         type="text" 
-                        class="form-control" 
+                        className="form-control" 
                         name="subject" 
                         placeholder="Subject"
                         required
@@ -120,12 +120,12 @@ function Contact() {
                     </div>
                     </div>
                     <div className="col-lg-6 col-md-12">
-                    <div class="mb-3">
+                    <div className="mb-3">
                         <label 
                         for="message" 
-                        class="form-label">Your Message</label>
+                        className="form-label">Your Message</label>
                         <textarea 
-                        class="form-control" 
+                        className="form-control" 
                         name="message" 
                         rows="3"
                         required
@@ -135,7 +135,7 @@ function Contact() {
                         </textarea>
                     </div>
                     <div className="mb-3">
-                    <button class="btn btn-primary btn-dark" type="submit">Send</button>
+                    <button className="btn btn-primary btn-dark" type="submit">Send</button>
                     </div>
                     </div>
                 </form>

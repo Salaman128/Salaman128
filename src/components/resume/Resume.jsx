@@ -9,7 +9,7 @@ export default function Resume() {
 
     
     return (
-        <div class="resume">
+        <div id="resume" className="resume w-100">
             {/* <Switch
             checked={timeline}
             onChange={() => setTimeline(!timeline)}

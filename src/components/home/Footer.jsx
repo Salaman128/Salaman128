@@ -80,32 +80,36 @@ function Footer() {
             // },
       ];
     return (
-        <div class="footer py-5 text-center">
+        <div style={{backgroundColor: "#ddd"}} id="contact" className="footer py-5 text-center">
             <div className="row">
                 <div className="col-lg-6 col-md-12">
                     <p>
-                        <a href="https://goo.gl/maps/CKUX75831m6SpECt9" target="_blank" rel="noreferrer">
-                            <LocationOnIcon className="icon"/>
+                        <a className="no-link" href="https://goo.gl/maps/CKUX75831m6SpECt9" target="_blank" rel="noreferrer">
+                            <LocationOnIcon className="icon me-2"/>
                             Pandalgudi, Earth
-                            <br/>
-                            <br/>
                         </a>
+                            <br/>
+                            <br/>
                     </p>
                 </div>
                 <div className="col-lg-6 col-md-12">
-                    <a href="mailto:nandhaoffl@gmail.com" target="_blank" rel="noreferrer">
-                    <EmailIcon className="icon"/>
-                    nandhaoffl@gmail.com</a><br/>
-                    <a href="tel:8778927733" target="_blank" rel="noreferrer">
-                    <CallIcon className="icon"/>
-                    91 87789 27733</a>
+                    <a className="no-link mb-3" href="mailto:nandhaoffl@gmail.com" target="_blank" rel="noreferrer">
+                    <EmailIcon className="icon me-2"/>
+                    nandhaoffl@gmail.com
+                    </a>
+
+                    <br/>
+                    <a className="no-link " href="tel:8778927733" target="_blank" rel="noreferrer">
+                    <CallIcon className="icon me-2"/>
+                    91 87789 27733
+                    </a>
                 </div>
             </div>
             <div className="mt-5">
                 <div className="links">
-                    {smlinks.map((link)=>(
-                        <a 
-                        style={{color: "white", textDecoration: 'none'}}
+                    {smlinks.map((link, i)=>(
+                        <a key={i}
+                        style={{color: link.color, textDecoration: 'none'}}
                         className="mx-2 fa icon" rel='noreferrer' target="_blank"
                         href={link.url}
                         >
@@ -130,12 +134,12 @@ function Footer() {
                     {/* If you wanna get my random small side projects.
                     <br/> */}
                 </div>
-                {/* <div class="terms">
+                {/* <div className="terms">
                 <Link className="term" to="/web/terms">Terms of Service</Link>& &nbsp;
                 <Link className="privacy" to="/web/privacy">Privacy Policy</Link>
                 </div>
                 <hr/>
-                <div class="f c"><strong class="fi"> &copy; {new Date().getFullYear()} Nandha Kumar</strong></div> */}
+                <div className="f c"><strong className="fi"> &copy; {new Date().getFullYear()} Nandha Kumar</strong></div> */}
                 <br/>
                 <br/>    
                 ©2022 Nandha Kumar Seenivasan

@@ -1,132 +1,119 @@
 import React from 'react';
+import Card from "./Card";
+import { Grid } from '@mui/material';
 import vskb from "./vskb.png";
+import sscbc from "./sscbc.png";
+
+
+const Section = ({size, title}) => {
+    return (
+        <div style={{width: '100%'}} className="">
+            <p style={{
+                width:"100%", textAlign: "center", fontSize: size+"px", margin: "40px 0", fontWeight: "bold"
+            }}>
+            {title}
+            </p>
+        
+        </div>           
+    )
+}
+
+
+const ImgBoxSlide = ({list}) => {
+    return (
+        <Grid sx={{padding: "20px"}} container justifyContent="center" spacing={3}>
+            {list.map((item, i)=>{
+                return(
+                    <Grid key={i} item xs={12} sm={6} md={4} lg={4}>
+                        <Card 
+                            bg={item.bg}
+                            img={item.img} 
+                            title={item.title} 
+                            text={item.text}
+                            buttons={item.buttons}
+                        />
+                    </Grid>
+                )
+            })}
+        </Grid>      
+    )
+}
 
 
 export default function Sections() {
-    window.scrollTo(0, 0);
 
 
     return (
-        <div class="sections">
-            <div class="part"><h3>Work Experience</h3>
-                <div class="row d-flex justify-content-center">
-                    <div class="col-md-4">
+        <div className="w-100">
+            <div className="work" style={{backgroundColor: "#ddd", padding: "20px 10px"}}>
+                <Section size={40} title={"Work Experience"}/>
+                <div className="m-5 row d-flex justify-content-center">
+                    <div className="col-md-4">
                         <strong>Web Developer & Digital Marketer</strong>
                         <p>(Part Time)</p> 
                     </div>
-                    <div class="col-md-4">
+                    <div className="col-md-4">
                         <i>January 2021 - now</i>
                     </div>
                 </div>
-                <div class="row d-flex justify-content-center">
-                    <div class="col-md-4">
+                <div className="m-5 row d-flex justify-content-center">
+                    <div className="col-md-4">
                         <strong>Assistant Electrician & Plumber</strong>
                         <p>(Part Time)</p> 
                     </div>
-                    <div class="col-md-4">
+                    <div className="col-md-4">
                         <i>July 2021 - October 2021</i>
                     </div>
                 </div>
             </div>
-            <hr />
-            <div class="section"><h1>Projects</h1>
-                <div class="part"><h3>Professional Projects</h3>
-                    {/* <div class="row d-flex justify-content-center">
-                        <div class="col-md-4">
-                            <strong></strong>
-                            <p>Business website</p> 
-                            <a href="https://www.jegan.live" target="_blank" rel="noreferrer">
-                                <div 
-                                style={{width: "100%", height: "100%"}}>
-                                <img 
-                                style={{borderRadius: "10px", width: "100%", height: "60%", margin: "5px auto", backgroundColor: "#aaa"}}
-                                src={vskb} alt=""/>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-md-4">
-                        <strong><a href="https://www.jegan.live" target="_blank" rel="noreferrer">Website Link</a></strong>      
-                            <br/>            
-                            <i>January 2022 - (in development)</i>
-                            <br/>
-                            <p>It's a landing page for a construction company for providing information about them, showcasing their work and also for communicating with customers.
-                            And Optimized it for search engines and OG protocol for major social media.</p>
-                            <p># MERN stack, MUI, Digital Marketing, SEO</p>
-                        </div>
-                    </div> */}
-                    <div class="row d-flex justify-content-center">
-                        <div class="col-md-4">
-                            <strong>VSK Builders & Promoters</strong>
-                            <p>Business website</p> 
-                            <a href="https://www.vskland.com" target="_blank" rel="noreferrer">
-                                <div 
-                                style={{width: "100%", height: "100%"}}>
-                                <img 
-                                style={{borderRadius: "10px", width: "100%", height: "60%", margin: "5px auto", backgroundColor: "#aaa"}}
-                                src={vskb} alt=""/>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-md-4">
-                        <strong><a href="https://www.vskland.com" target="_blank" rel="noreferrer">Website Link</a></strong>      
-                            <br/>            
-                            <i>January 2022 - (in development)</i>
-                            <br/>
-                            <p>It's a landing page for a construction company for providing information about them, showcasing their work and also for communicating with customers.
-                            And Optimized it for search engines and OG protocol for major social media.</p>
-                            <p># React, MUI, Digital Marketing, SEO</p>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="part"><h3>Personal Projects</h3>
-                    <div class="row d-flex justify-content-center">
-                        <div class="col-md-4">
-                            <strong>Personal Website (This Website)</strong>
-                        </div>
-                        <div class="col-md-4">
-                        <strong><a href="https://www.nandhadesparrow.me" target="_blank" rel="noreferrer">Website Link</a></strong>      
-                            <br/>            
-                            <p>A simple personal website for intro and resume. Blog in development.</p>
-                            <p># React, Bootstrap, MUI</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="part"><h3>Academic Project</h3>
-                    <div class="row d-flex justify-content-center">
-                        <div class="col-md-4">
-                            <strong>SSC: Version 2</strong>
-                            <br/><br/>
-                            <strong><a href="https://www.ijrpr.com/uploads/V3ISSUE6/IJRPR5047.pdf" target="_blank" rel="noreferrer">Paper in IJRPR Journal</a></strong>      
-                        </div>
-                        <div class="col-md-4">
-                            <strong>Upgraded our college management system</strong>
-                            <br/>
-                            <strong><a href="https://main.d3uvyyoi71ssrp.amplifyapp.com" target="_blank" rel="noreferrer">Website Link</a></strong>      
-                            <br/>            
-                            <i>July 2021 - June 2022</i>
-                            <br/>
-                            <p>Made a Progressive Web App with MERN stack for content sharing and communication and optimizing it for SEO.
-                            Set a device up in classrooms for face recognition, announcements and IoT controls. 
-                            The device can be controlled with the app and also the IoT data can be seen in app. 
-                            Certificates are added on blockchain.
-                            <br/><br/>
-                            # MERN stack, MUI,
-                            AWS, Google Cloud,
-                            Raspberry Pi, Python, IoE, 
-                            AI, Blockchain, Etherium, Solidity
-                            </p>
-                        </div>
-                    </div>    
-                </div>
+            <Section size={40} title={"Projects"}/>
+            <Section size={30} title={"Professional Projects"}/>
+            <ImgBoxSlide 
+                list={[
+                    {
+                        img: vskb,
+                        bg: "#aaa",
+                        title: "VSK Builders & Promoters",
+                        text: "It's a landing page for a construction company for providing information about them, showcasing their work and also for communicating with customers. And Optimized it for search engines and OG protocol for major social media.",
+                        buttons: [
+                            {
+                                name: "Visit Website",
+                                link: "https://www.vskland.com"
+                            },
+                        ]
+                    },
+                ]}
+            />
+            <div className="acadproject" style={{backgroundColor: "#ddd", padding: "20px 10px"}}>
+                <Section size={30} title={"Academic Project"}/>
+                <ImgBoxSlide 
+                    list={[
+                        {
+                            img: sscbc,
+                            bg: "#555",
+                            title: "SSC: Version 2",
+                            text: "Made a Progressive Web App with MERN stack for content sharing and communication and optimizing it for SEO. Set a device up in classrooms for face recognition, announcements and IoT controls. The device can be controlled with the app and also the IoT data can be seen in app. Certificates are added on blockchain.",
+                            buttons: [
+                                {
+                                    name: "View Web App",
+                                    link: "https://main.d3uvyyoi71ssrp.amplifyapp.com"
+                                },
+                                {
+                                    name: "Paper in IJRPR Journal",
+                                    link: "https://www.ijrpr.com/uploads/V3ISSUE6/IJRPR5047.pdf"
+                                },
+                            ]
+                        }
+                    ]}
+                />  
             </div>
-            <hr />
-            <div class="section"><h1>Academic Education</h1>
-                <div class="row d-flex justify-content-center">
-                    <div class="col-md-4">
+            <div className="" style={{padding: "20px 10px"}}>
+                <Section size={40} title={"Academic Education"}/>
+                <div className="m-5 row d-flex justify-content-center">
+                    <div className="col-md-4">
                         <strong>Bachelor Degree, Electronics and Communication Engineering</strong>
                         </div>
-                    <div class="col-md-4">
+                    <div className="col-md-4">
                         <strong>Sree Sowdambika College of Engineering, Aruppukottai</strong>
                         <br/>
                         <i>June 2019 - May 2022</i>
@@ -139,11 +126,11 @@ export default function Sections() {
                         </p>
                     </div>
                 </div>
-                <div class="row d-flex justify-content-center">
-                    <div class="col-md-4">
+                <div className="m-5 row d-flex justify-content-center">
+                    <div className="col-md-4">
                         <strong>Diploma, Electrical and Electronics Engineering</strong>
                     </div>
-                    <div class="col-md-4">
+                    <div className="col-md-4">
                         <strong>Sri Sowdambika Polytechnic College, Aruppukottai</strong>
                         <br/>
                         <i>June 2017 - May 2019</i>
@@ -153,11 +140,11 @@ export default function Sections() {
                         PLC programming and Electrical wiring & planning for Residents and Factories.</p>
                     </div>
                 </div>   
-                <div class="row d-flex justify-content-center">
-                    <div class="col-md-4">
+                <div className="m-5 row d-flex justify-content-center">
+                    <div className="col-md-4">
                         <strong>Secondary & Higher Secondary School</strong>
                     </div>
-                    <div class="col-md-4">
+                    <div className="col-md-4">
                         <strong>GHSS, Pandalgudi, Aruppukottai</strong>
                         <br/>
                         <i>2017</i>

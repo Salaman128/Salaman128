@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import './App.css';
 import Links from "./components/home/Links";
-import Navbar from "./components/home/Navbar"
+import Appbar from "./components/home/Appbar"
 import Home from "./components/home/Home"
 import Resume from "./components/resume/Resume"
 import Footer from "./components/home/Footer";
@@ -10,11 +10,9 @@ import Footer from "./components/home/Footer";
 
 export default function App() {
   return (
-    <div className="App">
+    <div className="App w-100">
       <Router>
-            <Navbar/>
-            <div className="nav-gap"></div>
-
+            <Appbar/>
             <Routes>
                 <Route path="/" exact element={<Home/>} />
                 <Route path="/resume" exact element={<Resume/>} />
