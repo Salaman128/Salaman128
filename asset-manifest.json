@@ -1,19 +1,18 @@
 {
   "files": {
     "main.css": "/salaman128/static/css/main.e5f7018b.css",
-    "main.js": "/salaman128/static/js/main.3fc8db0d.js",
+    "main.js": "/salaman128/static/js/main.2880a6fd.js",
     "static/js/787.aa3fb47f.chunk.js": "/salaman128/static/js/787.aa3fb47f.chunk.js",
     "static/media/vskb.png": "/salaman128/static/media/vskb.9a0a28a5d0a36a5118d1.png",
     "static/media/sscbc.png": "/salaman128/static/media/sscbc.0c120db97002bd1abc76.png",
-    "static/media/bw.jpg": "/salaman128/static/media/bw.7433205a6d290b88985a.jpg",
-    "static/media/Nandha.png": "/salaman128/static/media/Nandha.163d2bf6f13f5b3f65f1.png",
+    "static/media/read.jpeg": "/salaman128/static/media/read.c40d698602908b526ca1.jpeg",
     "index.html": "/salaman128/index.html",
     "main.e5f7018b.css.map": "/salaman128/static/css/main.e5f7018b.css.map",
-    "main.3fc8db0d.js.map": "/salaman128/static/js/main.3fc8db0d.js.map",
+    "main.2880a6fd.js.map": "/salaman128/static/js/main.2880a6fd.js.map",
     "787.aa3fb47f.chunk.js.map": "/salaman128/static/js/787.aa3fb47f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e5f7018b.css",
-    "static/js/main.3fc8db0d.js"
+    "static/js/main.2880a6fd.js"
   ]
 }
