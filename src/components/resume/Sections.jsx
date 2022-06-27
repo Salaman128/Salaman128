@@ -66,24 +66,6 @@ export default function Sections() {
                     </div>
                 </div>
             </div>
-            <Section size={40} title={"Projects"}/>
-            <Section size={30} title={"Professional Projects"}/>
-            <ImgBoxSlide 
-                list={[
-                    {
-                        img: vskb,
-                        bg: "#aaa",
-                        title: "VSK Builders & Promoters",
-                        text: "It's a landing page for a construction company for providing information about them, showcasing their work and also for communicating with customers. And Optimized it for search engines and OG protocol for major social media.",
-                        buttons: [
-                            {
-                                name: "Visit Website",
-                                link: "https://www.vskland.com"
-                            },
-                        ]
-                    },
-                ]}
-            />
             <div className="acadproject" style={{backgroundColor: "#ddd", padding: "20px 10px"}}>
                 <Section size={30} title={"Academic Project"}/>
                 <ImgBoxSlide 
@@ -116,40 +98,22 @@ export default function Sections() {
                     <div className="col-md-4">
                         <strong>Sree Sowdambika College of Engineering, Aruppukottai</strong>
                         <br/>
-                        <i>June 2019 - May 2022</i>
+                        <i>June 2018 - May 2022</i>
                         <br/>
-                        <p>Literally learned 
-                        stress management, 
-                        anger management &
-                        depression handling techniques.
-                        And also learned some electronics and communication core theory.
+                        <p>
                         </p>
                     </div>
-                </div>
+                </div>  
                 <div className="m-5 row d-flex justify-content-center">
                     <div className="col-md-4">
-                        <strong>Diploma, Electrical and Electronics Engineering</strong>
+                        <strong>Higher Secondary School</strong>
                     </div>
                     <div className="col-md-4">
-                        <strong>Sri Sowdambika Polytechnic College, Aruppukottai</strong>
+                        <strong>Govt Higher Secondary School, Kariapatti</strong>
                         <br/>
-                        <i>June 2017 - May 2019</i>
+                        <i>2018</i>
                         <br/>
-                        <p>Gained some knowledge about Electrical Motors, 
-                        Microcontroller and Microprocessor programming, 
-                        PLC programming and Electrical wiring & planning for Residents and Factories.</p>
-                    </div>
-                </div>   
-                <div className="m-5 row d-flex justify-content-center">
-                    <div className="col-md-4">
-                        <strong>Secondary & Higher Secondary School</strong>
-                    </div>
-                    <div className="col-md-4">
-                        <strong>GHSS, Pandalgudi, Aruppukottai</strong>
-                        <br/>
-                        <i>2017</i>
-                        <br/>
-                        <p>Maths, Physics, Chemictry, Botany, Zoology</p>
+                        <p></p>
                     </div>
                 </div> 
             </div>

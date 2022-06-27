@@ -1,7 +1,7 @@
 import { CardActionArea, CardMedia } from "@mui/material";
 import React from "react";
 import Typed from "react-typed";
-import bw from "./bw.jpg"
+import read from "./read.jpeg"
 
 
 export default function Header(){
@@ -12,9 +12,9 @@ export default function Header(){
 
             <CardActionArea>
                 <CardMedia
-                sx={{height: "40vh"}}
+                sx={{height: "50vh"}}
                 component="img"
-                image={bw}
+                image={read}
                 alt="green iguana"
                 />
             </CardActionArea>

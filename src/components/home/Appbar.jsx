@@ -11,14 +11,14 @@ import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
 import { useNavigate } from 'react-router-dom';
-import logo from "./Nandha.png"
+import logo from "./read.jpeg"
 import { Modal, Slide } from '@mui/material';
 
 
 const pages = [
     {
         name: "About",
-        to: "/#about"
+        to: "/salaman128/#about"
     },
 //   {
 //     name: "Gallery",
@@ -26,7 +26,7 @@ const pages = [
 //   },
   {
     name: "Resume",
-    to: "/resume#resume"
+    to: "/salaman128/resume#resume"
   }, 
 //   {
 //     name: "Posts",
@@ -53,15 +53,17 @@ export default function Appbar(){
     };
 
     return (
-        <AppBar sx={{backgroundColor: "white", backdropFilter: "blur(10px)", overflowY: "scroll"}} 
+        <AppBar sx={{backgroundColor: "#dfd", backdropFilter: "blur(10px)", height: "76px"}} 
         className="appbar w-100 fixed-top">
-        <Container maxWidth="xl">
+        <Container sx={{marginY: "auto",}} maxWidth="xl">
             <Toolbar disableGutters>
-            <Avatar 
+            {/* <Avatar 
             onClick={()=>{navigate("/")}}
             sx={{ width: 80, height: 80, display: { xs: 'none', md: 'flex' } }} 
-            variant="square" src={logo} />
-            <Typography sx={{marginLeft:"20px", width: "50%", color: 'black', display: { xs: 'none', md: 'flex' }}}>Nandha Kumar</Typography>
+            variant="square" src={logo} /> */}
+            <Typography sx={{marginLeft:"20px", width: "50%", color: 'black', display: { xs: 'none', md: 'flex' }}}>
+            Salamanraj
+            </Typography>
 
             <Box sx={{  display: { xs: 'flex', md: 'none' } }}>
                 <IconButton
@@ -75,7 +77,7 @@ export default function Appbar(){
                 </IconButton>
                 <Modal open={navMenuOpen} onClose={handleClose}>
                     <Slide direction="right" in={navMenuOpen} mountOnEnter unmountOnExit>
-                        <AppBar position="fixed" sx={{backgroundColor: "#aaa", left:0, width:"max-content", padding:2, paddingTop:5, height: '100%' }}>
+                        <AppBar position="fixed" sx={{backgroundColor: "#dfd", left:0, width:"max-content", padding:2, paddingTop:5, height: '100%' }}>
                             {pages.map((page) => (
                                 <a className={"my-3 btn btn-light"} 
                                 href={page.to} onClick={()=>{navClick()}}>
@@ -86,19 +88,18 @@ export default function Appbar(){
                     </Slide>
                 </Modal>
             </Box>
-            <Box sx={{ margin: "auto", width: "100%"}}>
-                <Avatar 
-                onClick={()=>{navigate("/")}}
-                sx={{ marginLeft: "auto", width: 75, height: 75, display: { xs: 'flex', md: 'none' } }} 
-                variant="square" src={logo}
-                />
+
+            <Box sx={{marginLeft: "auto", width: "auto", color: 'black', display: { xs: 'flex', md: 'none' }}}>
+                <Typography >
+                Salamanraj
+                </Typography>
             </Box>
 
-            <Box sx={{ marginLeft: "auto", display: { xs: 'none', md: 'flex' } }}>
+            <Box sx={{ marginLeft: "auto", width: "auto", display: { xs: 'none', md: 'flex' } }}>
                 {pages.map((page) => (
                     <a
                     className="no-link mx-3"
-                    key={page.name}
+                    key={page.to}
                     href={page.to}
                     >
                     {page.name}

@@ -80,13 +80,13 @@ function Footer() {
             // },
       ];
     return (
-        <div style={{backgroundColor: "#ddd"}} id="contact" className="footer py-5 text-center">
+        <div style={{backgroundColor: "#dfd"}} id="contact" className="footer py-5 text-center">
             <div className="row">
                 <div className="col-lg-6 col-md-12">
                     <p>
-                        <a className="no-link" href="https://goo.gl/maps/CKUX75831m6SpECt9" target="_blank" rel="noreferrer">
+                        <a className="no-link" href="/" target="_blank" rel="noreferrer">
                             <LocationOnIcon className="icon me-2"/>
-                            Pandalgudi, Earth
+                            Kariapatti, Virudhunagar, Tamilnadu, India
                         </a>
                             <br/>
                             <br/>
@@ -95,17 +95,17 @@ function Footer() {
                 <div className="col-lg-6 col-md-12">
                     <a className="no-link mb-3" href="mailto:nandhaoffl@gmail.com" target="_blank" rel="noreferrer">
                     <EmailIcon className="icon me-2"/>
-                    nandhaoffl@gmail.com
+                    salamanarul128@gmail.com
                     </a>
 
                     <br/>
                     <a className="no-link " href="tel:8778927733" target="_blank" rel="noreferrer">
                     <CallIcon className="icon me-2"/>
-                    91 87789 27733
+                    91 63818 92061
                     </a>
                 </div>
             </div>
-            <div className="mt-5">
+            {/* <div className="mt-5">
                 <div className="links">
                     {smlinks.map((link, i)=>(
                         <a key={i}
@@ -119,31 +119,17 @@ function Footer() {
                         </a>
                     ))
                     }
-                    {/* Feel free to message me anytime.
-                    <br/> */}
-                    {/* Who hates Telegram?
-                    <br/> */}
-                    {/* Wanna c my playlists?
-                    <br/> */}
-                    {/* For shitpost and memes.
-                    <br/> */}
-                    {/* Will post a pic for a lifetime. Follow if u wanna c some random pics. 
-                    <br/> */}
-                    {/* Feel free to connect.
-                    <br/> */}
-                    {/* If you wanna get my random small side projects.
-                    <br/> */}
                 </div>
-                {/* <div className="terms">
+                <div className="terms">
                 <Link className="term" to="/web/terms">Terms of Service</Link>& &nbsp;
                 <Link className="privacy" to="/web/privacy">Privacy Policy</Link>
                 </div>
                 <hr/>
-                <div className="f c"><strong className="fi"> &copy; {new Date().getFullYear()} Nandha Kumar</strong></div> */}
+                <div className="f c"><strong className="fi"> &copy; {new Date().getFullYear()} Nandha Kumar</strong></div>
                 <br/>
                 <br/>    
                 ©2022 Nandha Kumar Seenivasan
-            </div>
+            </div> */}
         </div>
     )
 }
